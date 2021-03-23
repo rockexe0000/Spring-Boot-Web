@@ -57,7 +57,7 @@ public class SpringBootWebApplication {
 > mvnw package && java -jar target/Spring-Boot-Web-0.0.1-SNAPSHOT.jar
 
 
-http://localhost:8080/greeting
+http://localhost:8081/demo/greeting
 
 
 接著開啟終端機(terminal)將目錄移到Spring Boot專案根目錄，也就是Dockerfile的所在目錄。在命令列輸入docker build -t spring-boot-demo .開始建構Spring Boot的docker image。
@@ -72,8 +72,18 @@ docker build 為 Docker建構image的指令。
 ### 輸入docker images檢視建構好的 image
 > docker images
 
+
+
+### 輸入$ docker run -p 8080:8080 --name demo spring-boot-demo啟動spring-boot-demo container。
+> docker run -p 8080:8081 --name demo spring-boot-demo
+
+-p 8080:8081 將本機的8080對映到container的8081 port；
+--name demo 將container名稱設定為demo。
+
+
+
 ### 列出所有 Docker 容器
-> docker ps
+> docker ps -a
 
 ### 停止 Docker 容器
 > docker stop DOCKER_ID
@@ -82,6 +92,10 @@ docker build 為 Docker建構image的指令。
 > docker kill DOCKER_ID
 
 如果 Docker 容器當掉，可以考慮改用 kill
+
+### 移除 Docker 容器
+> docker rm DOCKER_ID
+
 
 
 ### 重新啟動 Docker 容器
