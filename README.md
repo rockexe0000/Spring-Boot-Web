@@ -1,11 +1,31 @@
 # Spring-Boot-Web
 
 
+----------------------------------------------------------------------------
 
+## 參考：
 
-## Docker build Spring Boot docker image
+### 菜鳥工程師 肉豬 Docker build Spring Boot docker image
+
 https://matthung0807.blogspot.com/2020/11/docker-build-spring-boot-docker-image.html
 
+
+----------------------------------------------------------------------------
+
+
+## 環境：
+
+* window 10
+
+* Docker version 20.10.2, build 2291f61
+
+* Java 8
+
+* Maven
+
+* Spring Boot 2.4.4
+
+* eclipse-jee-photon-R-win32-x86_64
 
 
 
@@ -54,75 +74,122 @@ public class SpringBootWebApplication {
 我們可以在沒有Docker容器的情況下（即在主機OS中）運行應用程序：
 
 在目錄下執行
-> mvnw package && java -jar target/Spring-Boot-Web-0.0.1-SNAPSHOT.jar
 
+```
+mvnw package && java -jar target/Spring-Boot-Web-0.0.1-SNAPSHOT.jar
+```
 
 http://localhost:8081/demo/greeting
+
+
+
+在Spring Boot專案根目錄新增檔案命名為Dockerfile（不用副檔名）內容如下。Dockerfile為Docker build image的指令檔。
+
+```
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} demo.jar
+ENTRYPOINT ["java","-jar","/demo.jar"]
+
+```
+
+下面為Dockerfile每一行指令的簡單說明。
+
+* FROM openjdk:8-jdk-alpine：Spring Boot image使用的base image。
+* ARG JAR_FILE=target/*.jar：定義一個變數名稱為JAR_FILE，值為target/*.jar。
+* COPY ${JAR_FILE} demo.jar：將build context的JAR_FILE變數的檔案複製到container檔案目錄的demo.jar
+* ENTRYPOINT ["java","-jar","/demo.jar"]：在container執行java -jar /demo.jar。
+
+
+
+
+
 
 
 接著開啟終端機(terminal)將目錄移到Spring Boot專案根目錄，也就是Dockerfile的所在目錄。在命令列輸入docker build -t spring-boot-demo .開始建構Spring Boot的docker image。
 
 
-> docker build -t spring-boot-demo .
+```
+docker build -t spring-boot-demo .
+```
+
 
 docker build 為 Docker建構image的指令。
--t 後接image的名稱，這邊命名為spring-boot-demo；
-. 意思為以當前目錄為 build context。
+* -t 後接image的名稱，這邊命名為spring-boot-demo；
+* . 意思為以當前目錄為 build context。
 
-### 輸入docker images檢視建構好的 image
-> docker images
+輸入docker images檢視建構好的 image
 
-
-
-### 輸入$ docker run -p 8080:8080 --name demo spring-boot-demo啟動spring-boot-demo container。
-> docker run -p 8080:8081 --name demo spring-boot-demo
-
--p 8080:8081 將本機的8080對映到container的8081 port；
---name demo 將container名稱設定為demo。
+```
+docker images
+```
 
 
+輸入$ docker run -p 8080:8081 --name demo spring-boot-demo啟動spring-boot-demo container。
 
-### 列出所有 Docker 容器
-> docker ps -a
+```
+docker run -p 8080:8081 --name demo spring-boot-demo
+```
 
-### 停止 Docker 容器
-> docker stop DOCKER_ID
+* -p 8080:8081 將本機的8080對映到container的8081 port；
+* --name demo 將container名稱設定為demo。
 
-### 強制停止 Docker 容器
-> docker kill DOCKER_ID
 
+
+列出所有 Docker 容器
+
+```
+docker ps -a
+```
+
+停止 Docker 容器
+
+```
+docker stop DOCKER_ID
+```
+強制停止 Docker 容器
+
+```
+docker kill DOCKER_ID
+```
 如果 Docker 容器當掉，可以考慮改用 kill
 
-### 移除 Docker 容器
-> docker rm DOCKER_ID
+移除 Docker 容器
+
+```
+docker rm DOCKER_ID
+```
 
 
+重新啟動 Docker 容器
 
-### 重新啟動 Docker 容器
-> docker restart DOCKER_ID
-
-
-
-
+```
+docker restart DOCKER_ID
+```
 
 
+### 上傳到 Docker Hub 
 
 
+使用命令登錄Docker Hub 
+
+```
+docker login -u YOUR-USER-NAME
+```
 
 
+使用docker tag 命令為 spring-boot-demo image重新命名。確保改成 YOUR-USER-NAME 您的 Docker ID。
+
+```
+docker tag spring-boot-demo YOUR-USER-NAME/spring-boot-demo
+```
 
 
+push 到 Docker Hub
 
-
-
-
-
-
-
-
-
-
-
+```
+docker push YOUR-USER-NAME/spring-boot-demo
+```
 
 
 
