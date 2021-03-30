@@ -5,9 +5,29 @@
 
 ## 參考：
 
+
+
+### spring 官方網站
+
+<https://spring.io/guides/topicals/spring-boot-docker>
+
 ### 菜鳥工程師 肉豬 Docker build Spring Boot docker image
 
-https://matthung0807.blogspot.com/2020/11/docker-build-spring-boot-docker-image.html
+<https://matthung0807.blogspot.com/2020/11/docker-build-spring-boot-docker-image.html>
+
+### docker 官方網站
+
+<https://docs.docker.com/get-started/>
+
+### Docker-指令小抄
+
+<https://mileslin.github.io/2019/04/Docker-%E6%8C%87%E4%BB%A4%E5%B0%8F%E6%8A%84/>
+
+
+
+
+
+
 
 
 ----------------------------------------------------------------------------
@@ -35,7 +55,7 @@ https://matthung0807.blogspot.com/2020/11/docker-build-spring-boot-docker-image.
 
 1、先下載安裝 JAVA SDK 開發套件。
 
-https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+<https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html>
 
 2、在作業系統變數下新增三個參數： 示範版本為 JDK 1.8.0_201
 
@@ -84,6 +104,8 @@ http://localhost:8081/demo/greeting
 
 
 在Spring Boot專案根目錄新增檔案命名為Dockerfile（不用副檔名）內容如下。Dockerfile為Docker build image的指令檔。
+
+### Dockerfile
 
 ```
 FROM openjdk:8-jdk-alpine
@@ -171,39 +193,44 @@ docker restart DOCKER_ID
 ### 上傳到 Docker Hub 
 
 
+rockexe0000 = YOUR-USER-NAME
+
+
 使用命令登錄Docker Hub 
 
 ```
-docker login -u YOUR-USER-NAME
+docker login -u rockexe0000
 ```
 
 
 使用docker tag 命令為 spring-boot-demo image重新命名。確保改成 YOUR-USER-NAME 您的 Docker ID。
 
 ```
-docker tag spring-boot-demo YOUR-USER-NAME/spring-boot-demo
+docker tag spring-boot-demo rockexe0000/spring-boot-demo
 ```
 
 
 push 到 Docker Hub
 
 ```
-docker push YOUR-USER-NAME/spring-boot-demo
+docker push rockexe0000/spring-boot-demo
 ```
 
 
 
 
+進入 Image
+
+```
+docker run -ti --entrypoint /bin/sh rockexe0000/spring-boot-demo
+```
 
 
+進入正在執行的 container
 
-
-
-
-
-
-
-
+```
+docker exec -ti myapp /bin/sh
+```
 
 
 
