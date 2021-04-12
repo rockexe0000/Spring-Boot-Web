@@ -1,33 +1,8 @@
 # Spring-Boot-Web
 
 
-----------------------------------------------------------------------------
 
-## 參考：
-
-
-
-### spring 官方網站
-
-<https://spring.io/guides/topicals/spring-boot-docker>
-
-### 菜鳥工程師 肉豬 Docker build Spring Boot docker image
-
-<https://matthung0807.blogspot.com/2020/11/docker-build-spring-boot-docker-image.html>
-
-### docker 官方網站
-
-<https://docs.docker.com/get-started/>
-
-### Docker-指令小抄
-
-<https://mileslin.github.io/2019/04/Docker-%E6%8C%87%E4%BB%A4%E5%B0%8F%E6%8A%84/>
-
-
-
-
-
-
+http://localhost:8081/demo/greeting
 
 
 ----------------------------------------------------------------------------
@@ -47,7 +22,7 @@
 
 * eclipse-jee-photon-R-win32-x86_64
 
-
+* MariaDB
 
 ----------------------------------------------------------------------------
 
@@ -238,18 +213,29 @@ docker exec -ti myapp /bin/sh
 
 
 
+----------------------------------------------------------------
 
 
+## MariaDB
 
 
+https://ithelp.ithome.com.tw/articles/10194334
 
 
 
 
+找到占用3306的程式PID
 
 
+```
+netstat -ano | findstr 0.0:3306
+```
 
+用 PID 找服務名稱
 
+```
+tasklist |findstr 4564
+```
 
 
 
@@ -330,6 +316,37 @@ docker exec -ti myapp /bin/sh
 
 
 
+
+
+
+
+----------------------------------------------------------------------------
+
+## 參考：
+
+
+
+### spring 官方網站
+
+<https://spring.io/guides/topicals/spring-boot-docker>
+
+### 菜鳥工程師 肉豬 Docker build Spring Boot docker image
+
+<https://matthung0807.blogspot.com/2020/11/docker-build-spring-boot-docker-image.html>
+
+### docker 官方網站
+
+<https://docs.docker.com/get-started/>
+
+### Docker-指令小抄
+
+<https://mileslin.github.io/2019/04/Docker-%E6%8C%87%E4%BB%A4%E5%B0%8F%E6%8A%84/>
+
+
+
+30天學習Spring MVC 系列
+
+https://ithelp.ithome.com.tw/users/20107812/ironman/1538
 
 
 
