@@ -238,12 +238,31 @@ tasklist |findstr 4564
 ```
 
 
+docker-compose.yml
+
+```
+version: '3.2'
+
+services:
+  db:
+    image: "mariadb:10.5.3"
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db/data:/var/lib/mysql
+      - ./db/initdb.d:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: "1234567890"
 
 
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
 
-
-
-
+```
 
 
 
