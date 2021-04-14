@@ -222,6 +222,10 @@ docker exec -ti myapp /bin/sh
 https://ithelp.ithome.com.tw/articles/10194334
 
 
+DbVisualizer Free 12.0.4
+
+
+
 
 
 找到占用3306的程式PID
@@ -253,7 +257,7 @@ services:
       - ./db/data:/var/lib/mysql
       - ./db/initdb.d:/docker-entrypoint-initdb.d
     environment:
-      MYSQL_ROOT_PASSWORD: "1234567890"
+      MYSQL_ROOT_PASSWORD: "123456"
 
 
   adminer:
@@ -268,16 +272,54 @@ services:
 
 
 
+建立 MEMBER 資料庫
+
+```
+create database MEMBER;
+```
+
+
+建立一個使用者,登入的密碼為123456
+
+```
+DROP USER 'T00001'@'%';
+
+DROP USER 'T00001'@'localhost';
+```
 
 
 
+賦予T00001 MEMBER資料庫所有權限
+
+```
+CREATE USER 'T00001'@'%' IDENTIFIED BY '123456';
+CREATE USER 'T00001'@'localhost' IDENTIFIED BY '123456';
 
 
+GRANT ALL PRIVILEGES ON MEMBER.* TO 'T00001'@'%';
+FLUSH PRIVILEGES;
+
+GRANT ALL PRIVILEGES ON MEMBER.* TO 'T00001'@'localhost';
+FLUSH PRIVILEGES;
+
+```
 
 
+建立 member_account 資料表
 
+```
+use MEMBER;
 
-
+CREATE TABLE member_account (
+  ID int(11) NOT NULL AUTO_INCREMENT,
+  EMAIL varchar(40) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PASSWORD varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  ADDRESS varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  CELLPHONE varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  CREATE_DATE datetime DEFAULT NULL,
+  PRIMARY KEY (ID)
+)
+```
 
 
 
