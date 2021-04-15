@@ -38,4 +38,14 @@ build/
 ### database ###
 /db/
 
+/src/main/resources/static/
+
+
+
+
+
+
+
+
+
 
