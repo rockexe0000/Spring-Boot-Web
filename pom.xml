@@ -44,7 +44,12 @@
 		    <artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 		
-		 
+		
+		<!-- 加入 spring-session-data-redis依賴 -->
+		<dependency>
+    		<groupId>org.springframework.session</groupId>
+    		<artifactId>spring-session-data-redis</artifactId>
+		</dependency>
 		 
 		<!--  -->
 		<dependency>

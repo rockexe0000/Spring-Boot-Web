@@ -38,6 +38,13 @@ build/
 ### database ###
 /db/
 
+### redis ###
+/redis/
+
+### log ###
+/applog/
+
+
 /src/main/resources/static/
 
 

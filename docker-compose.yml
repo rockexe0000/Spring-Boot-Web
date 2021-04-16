@@ -13,8 +13,20 @@ services:
       MYSQL_ROOT_PASSWORD: "123456"
 
 
-  adminer:
-    image: adminer
+  redis:
     restart: always
+    container_name: redis
+    image: redis:alpine
     ports:
-      - 8080:8080
+      - 6379:6379
+    volumes:
+      - ./redis/data/redis-data:/data
+
+
+
+
+  #adminer:
+  #  image: adminer
+  #  restart: always
+  #  ports:
+  #    - 8080:8080

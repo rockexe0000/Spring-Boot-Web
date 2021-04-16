@@ -1,0 +1,249 @@
+2021-04-16 16:52:52,535 [main] INFO  c.z.S.SpringBootWebApplication 55 - Starting SpringBootWebApplication using Java 1.8.0_91 on O1811102 with PID 5856 (D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web\target\classes started by user in D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web)
+2021-04-16 16:52:52,541 [main] INFO  c.z.S.SpringBootWebApplication 662 - No active profile set, falling back to default profiles: default
+2021-04-16 16:52:53,805 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 16:52:53,895 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 188 - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2021-04-16 16:52:56,211 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+2021-04-16 16:52:56,230 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-16 16:52:56,231 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2021-04-16 16:52:56,232 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 16:52:56,385 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2021-04-16 16:52:56,385 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 289 - Root WebApplicationContext: initialization completed in 3754 ms
+2021-04-16 16:52:56,706 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2021-04-16 16:52:56,715 [main] WARN  c.z.hikari.util.DriverDataSource 70 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-04-16 16:52:57,235 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2021-04-16 16:52:57,329 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-16 16:52:57,480 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-16 16:52:57,805 [main] INFO  o.h.annotations.common.Version 56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16 16:52:58,047 [main] INFO  org.hibernate.dialect.Dialect 175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-16 16:52:59,004 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16 16:52:59,019 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 16:52:59,752 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 221 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-16 16:52:59,939 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-16 16:53:00,105 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+2021-04-16 16:53:00,353 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-04-16 16:53:00,390 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8081 (http) with context path '/demo'
+2021-04-16 16:53:00,405 [main] INFO  c.z.S.SpringBootWebApplication 61 - Started SpringBootWebApplication in 8.596 seconds (JVM running for 9.74)
+2021-04-16 16:58:48,823 [main] INFO  c.z.S.SpringBootWebApplication 55 - Starting SpringBootWebApplication using Java 1.8.0_91 on O1811102 with PID 22568 (D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web\target\classes started by user in D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web)
+2021-04-16 16:58:48,829 [main] INFO  c.z.S.SpringBootWebApplication 662 - No active profile set, falling back to default profiles: default
+2021-04-16 16:58:50,228 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 250 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-16 16:58:50,233 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 16:58:50,333 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 188 - Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2021-04-16 16:58:52,747 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+2021-04-16 16:58:52,767 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-16 16:58:52,769 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2021-04-16 16:58:52,769 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 16:58:52,956 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2021-04-16 16:58:52,957 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 289 - Root WebApplicationContext: initialization completed in 4028 ms
+2021-04-16 16:58:53,022 [main] ERROR o.s.b.w.e.tomcat.TomcatStarter 61 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'sessionRepositoryFilterRegistration' defined in class path resource [org/springframework/boot/autoconfigure/session/SessionRepositoryFilterConfiguration.class]: Unsatisfied dependency expressed through method 'sessionRepositoryFilterRegistration' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-04-16 16:58:53,075 [main] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2021-04-16 16:58:53,092 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-04-16 16:58:53,111 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-16 16:58:53,141 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method sessionRepositoryFilterRegistration in org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2021-04-16 17:00:32,502 [main] INFO  c.z.S.SpringBootWebApplication 55 - Starting SpringBootWebApplication using Java 1.8.0_91 on O1811102 with PID 22024 (D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web\target\classes started by user in D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web)
+2021-04-16 17:00:32,508 [main] INFO  c.z.S.SpringBootWebApplication 662 - No active profile set, falling back to default profiles: default
+2021-04-16 17:00:33,817 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 250 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-16 17:00:33,820 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 17:00:33,907 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 188 - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2021-04-16 17:00:36,181 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+2021-04-16 17:00:36,200 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-16 17:00:36,201 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2021-04-16 17:00:36,201 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 17:00:36,367 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2021-04-16 17:00:36,368 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 289 - Root WebApplicationContext: initialization completed in 3773 ms
+2021-04-16 17:00:36,421 [main] ERROR o.s.b.w.e.tomcat.TomcatStarter 61 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'sessionRepositoryFilterRegistration' defined in class path resource [org/springframework/boot/autoconfigure/session/SessionRepositoryFilterConfiguration.class]: Unsatisfied dependency expressed through method 'sessionRepositoryFilterRegistration' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-04-16 17:00:36,471 [main] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2021-04-16 17:00:36,487 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-04-16 17:00:36,504 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-16 17:00:36,534 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method sessionRepositoryFilterRegistration in org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2021-04-16 17:31:43,927 [main] INFO  c.z.S.SpringBootWebApplication 55 - Starting SpringBootWebApplication using Java 1.8.0_91 on O1811102 with PID 11912 (D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web\target\classes started by user in D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web)
+2021-04-16 17:31:43,933 [main] INFO  c.z.S.SpringBootWebApplication 662 - No active profile set, falling back to default profiles: default
+2021-04-16 17:31:45,385 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 250 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-16 17:31:45,389 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 17:31:45,496 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 188 - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2021-04-16 17:31:48,051 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+2021-04-16 17:31:48,071 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-16 17:31:48,072 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2021-04-16 17:31:48,073 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 17:31:48,254 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2021-04-16 17:31:48,254 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 289 - Root WebApplicationContext: initialization completed in 4228 ms
+2021-04-16 17:31:48,312 [main] ERROR o.s.b.w.e.tomcat.TomcatStarter 61 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'sessionRepositoryFilterRegistration' defined in class path resource [org/springframework/boot/autoconfigure/session/SessionRepositoryFilterConfiguration.class]: Unsatisfied dependency expressed through method 'sessionRepositoryFilterRegistration' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-04-16 17:31:48,365 [main] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2021-04-16 17:31:48,382 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-04-16 17:31:48,403 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-16 17:31:48,443 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method sessionRepositoryFilterRegistration in org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2021-04-16 17:37:31,298 [main] INFO  c.z.S.SpringBootWebApplication 55 - Starting SpringBootWebApplication using Java 1.8.0_91 on O1811102 with PID 21292 (D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web\target\classes started by user in D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web)
+2021-04-16 17:37:31,307 [main] INFO  c.z.S.SpringBootWebApplication 662 - No active profile set, falling back to default profiles: default
+2021-04-16 17:37:32,745 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 250 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-16 17:37:32,749 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 17:37:32,849 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 188 - Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces.
+2021-04-16 17:37:35,359 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+2021-04-16 17:37:35,382 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-16 17:37:35,384 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2021-04-16 17:37:35,385 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 17:37:35,564 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2021-04-16 17:37:35,565 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 289 - Root WebApplicationContext: initialization completed in 4146 ms
+2021-04-16 17:37:35,624 [main] ERROR o.s.b.w.e.tomcat.TomcatStarter 61 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'sessionRepositoryFilterRegistration' defined in class path resource [org/springframework/boot/autoconfigure/session/SessionRepositoryFilterConfiguration.class]: Unsatisfied dependency expressed through method 'sessionRepositoryFilterRegistration' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-04-16 17:37:35,677 [main] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2021-04-16 17:37:35,694 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-04-16 17:37:35,714 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-16 17:37:35,750 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method sessionRepositoryFilterRegistration in org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2021-04-16 17:41:53,263 [main] INFO  c.z.S.SpringBootWebApplication 55 - Starting SpringBootWebApplication using Java 1.8.0_91 on O1811102 with PID 21816 (D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web\target\classes started by user in D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web)
+2021-04-16 17:41:53,270 [main] INFO  c.z.S.SpringBootWebApplication 662 - No active profile set, falling back to default profiles: default
+2021-04-16 17:41:54,781 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 250 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-16 17:41:54,785 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 17:41:54,886 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 188 - Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces.
+2021-04-16 17:41:57,206 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+2021-04-16 17:41:57,225 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-16 17:41:57,226 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2021-04-16 17:41:57,227 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 17:41:57,399 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2021-04-16 17:41:57,400 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 289 - Root WebApplicationContext: initialization completed in 4031 ms
+2021-04-16 17:41:57,455 [main] ERROR o.s.b.w.e.tomcat.TomcatStarter 61 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'sessionRepositoryFilterRegistration' defined in class path resource [org/springframework/boot/autoconfigure/session/SessionRepositoryFilterConfiguration.class]: Unsatisfied dependency expressed through method 'sessionRepositoryFilterRegistration' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-04-16 17:41:57,508 [main] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2021-04-16 17:41:57,525 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-04-16 17:41:57,542 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-16 17:41:57,575 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method sessionRepositoryFilterRegistration in org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2021-04-16 17:42:31,326 [main] INFO  c.z.S.SpringBootWebApplication 55 - Starting SpringBootWebApplication using Java 1.8.0_91 on O1811102 with PID 5908 (D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web\target\classes started by user in D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web)
+2021-04-16 17:42:31,333 [main] INFO  c.z.S.SpringBootWebApplication 662 - No active profile set, falling back to default profiles: default
+2021-04-16 17:42:32,730 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 250 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-16 17:42:32,734 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 17:42:32,835 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 188 - Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2021-04-16 17:42:35,086 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+2021-04-16 17:42:35,104 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-16 17:42:35,105 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2021-04-16 17:42:35,106 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 17:42:35,261 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2021-04-16 17:42:35,261 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 289 - Root WebApplicationContext: initialization completed in 3830 ms
+2021-04-16 17:42:35,318 [main] ERROR o.s.b.w.e.tomcat.TomcatStarter 61 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'sessionRepositoryFilterRegistration' defined in class path resource [org/springframework/boot/autoconfigure/session/SessionRepositoryFilterConfiguration.class]: Unsatisfied dependency expressed through method 'sessionRepositoryFilterRegistration' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-04-16 17:42:35,370 [main] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2021-04-16 17:42:35,386 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-04-16 17:42:35,408 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-16 17:42:35,444 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method sessionRepositoryFilterRegistration in org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2021-04-16 17:46:16,898 [main] INFO  c.z.S.SpringBootWebApplication 55 - Starting SpringBootWebApplication using Java 1.8.0_91 on O1811102 with PID 27460 (D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web\target\classes started by user in D:\eclipse-jee-photon-R-win32-x86_64\eclipse\workspace\Spring-Boot-Web)
+2021-04-16 17:46:16,905 [main] INFO  c.z.S.SpringBootWebApplication 662 - No active profile set, falling back to default profiles: default
+2021-04-16 17:46:18,334 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 250 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-16 17:46:18,338 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 17:46:18,441 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 188 - Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interfaces.
+2021-04-16 17:46:21,019 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+2021-04-16 17:46:21,043 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-16 17:46:21,044 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2021-04-16 17:46:21,045 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 17:46:21,224 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2021-04-16 17:46:21,224 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 289 - Root WebApplicationContext: initialization completed in 4208 ms
+2021-04-16 17:46:21,290 [main] ERROR o.s.b.w.e.tomcat.TomcatStarter 61 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'sessionRepositoryFilterRegistration' defined in class path resource [org/springframework/boot/autoconfigure/session/SessionRepositoryFilterConfiguration.class]: Unsatisfied dependency expressed through method 'sessionRepositoryFilterRegistration' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-04-16 17:46:21,356 [main] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2021-04-16 17:46:21,375 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-04-16 17:46:21,396 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-16 17:46:21,436 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method sessionRepositoryFilterRegistration in org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
